@@ -5,6 +5,15 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+body{
+    transform: scale(.9);
+    transform-origin: top left;
+    width: 111.11%;
+}
+html,body{
+    height: 110%;
+}
+
 
 .header {
     width: 100%;
@@ -90,7 +99,6 @@ nav {
 }
 
 section {
-    height: 1800px;
     background-color: rgb(34, 34, 139);
 
 }
