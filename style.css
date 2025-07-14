@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Popinns', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .9)), url(images/netflix-background-home.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 30px 8%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bo1 {
+    padding-left: 20px;
+    width: 120px;
+    height: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#bo2 {
+    width: 100px;
+    height: 35px;
+    font-weight: 400;
+    color: white;
+    border-radius: 7px;
+    background-color: red;
+    font-size: 15px;
+    border: none;
+    padding: 1px 5px;
+}
+
+.main-body {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.main-body p {
+    font-size: 1.1rem;
+}
+#text {
+    font-size: 2.8rem;
+}
+
+#inp-bar {
+
+    height: 65px;
+    width: 323px;
+    background-color: rgb(18, 17, 17);
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid rgb(181, 155, 155);
+    border-radius: 5px;
+}
+
+#main-but {
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+    border-radius: 12px;
+    height: 65px;
+    width: 200px;
+
+}
+
+section {
+    height: 1800px;
+    background-color: rgb(34, 34, 139);
+
+}
+
+.mid-nav {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.mid-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 12px 7%;
+    gap: 2rem;
+    position: relative;
+}
+
+.mid-box img {
+    border-radius: 10px;
+    height: 225px;
+    padding: 15px;
+    background: transparent;
+}
+
+.mid-box .img-box {
+
+    position: relative;
+    transition: transform .3s;
+
+}
+
+.mid-box .img-box:hover {
+    transform: scale(1.1);
+}
+
+.number {
+    margin-right: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 5rem;
+    font-weight: 900;
+    color: black;
+    /* Black inner fill */
+
+    /* White outer stroke */
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff;
+}
+
+#par {
+    color: white;
+    font-size: 1.3rem;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.parent-div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, auto));
+    align-items: center;
+    gap: 1rem;
+    padding: 40px;
+
+}
+
+.mid-rec1 {
+    background: linear-gradient(to bottom right, #0b1437, #1a0f23, #1a050a);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    
+}
+.mid-rec1 h4 {
+    font-size: 1.6rem;
+}
+.mid-rec1 p {
+    color: rgb(188, 186, 184);
+    font-size: 1.2rem;
+}
+
+.mid-rec1 img {
+    float: right;
+    mix-blend-mode: lighten;
+    background-color: transparent;
+}
+
+.mid-rec1 p {
+    margin: 30px 0 30px;
+    width: 100%;
+}
+
+.curve-separator {
+    width: 100%;
+    display: block;
+    margin-bottom: -5px;
+}
+
+.ques h2 {
+    color: white;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.parent-acc {
+    width: 100%;
+}
+
+.ques1 {
+    color: white;
+    background-color: rgb(33, 33, 33);
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    padding: 5px 35px;
+}
+
+.ques1 p {
+    font-size: 1.6rem;
+    
+}
+
+.ques1 span {
+    font-size: 3.5rem;
+    
+}
+
+.ques1:hover {
+    background-color: rgb(101, 101, 98);
+    transition: .4s;
+}
+
+.parent-last {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.parent-last p {
+    color: white;
+    position: absolute;
+    padding-top: 50px;
+}
+
+.parent-last #inp-bar {
+    margin-top: 120px;
+    width: 458px;
+   
+}
+
+footer {
+    height: 700px;
+    background-color: black;
+    color: rgb(120, 115, 115);
+}
+footer p {
+    padding: 30px 110px 0;
+}
+
+footer a {
+
+    color: rgb(120, 115, 115);
+}
+
+footer .parent-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 8%;
+    gap: 7rem;
+}
+
+footer .parent-footer ul li {
+    margin: 18px 0;
+}
+
+footer .parent-footer ul li a {
+    color: rgb(120, 115, 115);
+}
+
+footer .foot-mail {
+    padding-left: 80px;
+
+}
+
+#foot-tex1 {
+    padding: 50px 80px;
+
+}
+
+#foot-tex2 {
+    padding: 15px 80px;
+     font-size: 14.5px;
+}
+
+#foot-tex2 a {
+    color: rgb(66, 66, 184);
+}
